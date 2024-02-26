@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<title>Eventos</title>
+ 
+</head>
+<body>
+
+<div class="container">
+  <h1>Manejo de Eventos </h1>
+  <button class="button-85" onclick="clickEvent()">Click</button>
+  <button class="button-85" ondblclick="doubleClickEvent()">Doble Click</button>
+  <button class="button-85" onmousedown="mouseDownEvent()">Presionar el Mouse</button>
+  <button class="button-85"  onmouseup="mouseUpEvent()">Soltar el Mouse</button>
+  <button class="button-85" onmousemove="mouseMoveEvent()">Mover el Mouse</button>
+  <button class="button-85" onmouseenter="mouseEnterEvent()">Mouse Entrando</button>
+  <button class="button-85" onmouseleave="mouseLeaveEvent()">Mouse Saliendo</button>
+  <button class="button-85" onmouseover="mouseOverEvent()">Mouse Sobre</button>
+  <button class="button-85" onmouseout="mouseOutEvent()">Mouse Fuera</button>
+</div>
+
+<div class="scroll-buttons">
+  <button class="button-50" onclick="scrollWindow(-100)">Subir</button>
+  <button class="button-50" onclick="scrollWindow(100)">Bajar</button>
+</div>
+
+<button class="toggle-button, button-74"   onclick="toggleScrollButtons()">Ocultar/Mostrar Botones de Scroll</button>
+<div class="loader loader--1">
+	<div class="dot">
+
+	</div>
+	<div class="shadow"></div>
+</div>
+<div class="loader loader--2">
+	<div class="dot">
+		<div class="face">
+			<div class="eyes"></div>
+			<div class="mouth"></div>
+		</div>
+	</div>
+	<div class="shadow"></div>
+</div>
+<div class="loader loader--3">
+	<div class="dot">
+
+	</div>
+	<div class="shadow"></div>
+</div>
+</body>
+<script src="index.js"></script>
+</html>
+
+
+
